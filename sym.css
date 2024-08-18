@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling to match the index page */
+.navbar {
+    background-color: #2a2a2a; /* Grey background color */
+    padding: 10px 20px;
+    border-radius: 15px; /* Rounded edges */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.navbar:hover {
+    background-color: #1a1a1a; /* Darker grey on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px; /* Slightly rounded corners for links */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.navbar ul li a:hover {
+    background-color: #ffd12a; /* Yellow background on hover */
+    color: #2a2a2a; /* Grey text on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
+}
+
+.navbar ul li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #ffd12a; /* Yellow underline */
+    transition: width 0.3s; /* Smooth underline transition */
+}
+
+.navbar ul li a:hover::before {
+    width: 100%; /* Full underline width on hover */
+}
+
+
+/* Submit Your Music Section */
+.submit-music-section {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section-title {
+    color: #ff69b4; /* Same pink color */
+    margin-bottom: 10px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff69b4; /* Same pink color */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    background-color: #444;
+}
+
+button[type="submit"] {
+    background-color: #ff69b4; /* Same pink color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #e05896;
+}
+
+/* Footer */
+footer {
+    background-color: #0d0d0d; /* Dark background to match index page */
+    color: #e0e0e0; /* Light text color */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 3px solid #ff007f; /* Add pink border at the top */
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff007f; /* Pink color on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #e0e0e0;
+    margin: 0 15px;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ff007f; /* Pink color on hover */
+}
