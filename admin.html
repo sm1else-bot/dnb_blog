@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title-background"></div>
+            <h1>Admin Panel</h1>
+            <p>Enter the passphrase to access the form below:</p>
+        </header>
+
+        <form id="admin-form">
+            <label for="passphrase">Passphrase:</label>
+            <input type="text" id="passphrase" name="passphrase" required>
+
+            <label for="artist-name">Artist Name:</label>
+            <input type="text" id="artist-name" name="artist-name" required>
+
+            <label for="song-name">Song Name:</label>
+            <input type="text" id="song-name" name="song-name" required>
+
+            <label for="subtitle">Subtitle:</label>
+            <input type="text" id="subtitle" name="subtitle" required>
+
+            <label for="review-body">Review:</label>
+            <textarea id="review-body" name="review-body" required></textarea>
+
+            <div class="slider-container">
+                <label for="lyrics">Lyrics:</label>
+                <input type="range" id="lyrics" name="lyrics" min="1" max="10" step="1">
+                <span id="lyrics-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="melody">Melody:</label>
+                <input type="range" id="melody" name="melody" min="1" max="10" step="1">
+                <span id="melody-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="harmony">Harmony:</label>
+                <input type="range" id="harmony" name="harmony" min="1" max="10" step="1">
+                <span id="harmony-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="rhythm">Rhythm:</label>
+                <input type="range" id="rhythm" name="rhythm" min="1" max="10" step="1">
+                <span id="rhythm-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="instrumentation">Instrumentation:</label>
+                <input type="range" id="instrumentation" name="instrumentation" min="1" max="10" step="1">
+                <span id="instrumentation-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="production">Production:</label>
+                <input type="range" id="production" name="production" min="1" max="10" step="1">
+                <span id="production-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="emotional-impact">Emotional Impact:</label>
+                <input type="range" id="emotional-impact" name="emotional-impact" min="1" max="10" step="1">
+                <span id="emotional-impact-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="cultural-significance">Cultural Significance:</label>
+                <input type="range" id="cultural-significance" name="cultural-significance" min="1" max="10" step="1">
+                <span id="cultural-significance-score">5</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="commercial-success">Commercial Success:</label>
+                <input type="range" id="commercial-success" name="commercial-success" min="1" max="10" step="1">
+                <span id="commercial-success-score">5</span>
+            </div>
+
+            <div class="radio-group">
+                <label>Tag:</label>
+                <label><input type="radio" name="tag" value="blog" required> Blog</label>
+                <label><input type="radio" name="tag" value="artist" required> Artist</label>
+                <label><input type="radio" name="tag" value="venue" required> Venue</label>
+                <label><input type="radio" name="tag" value="event" required> Event</label>
+            </div>
+
+            <label for="artist-image">Artist Image (URL ending in .jpg or .jpeg):</label>
+            <input type="text" id="artist-image" name="artist-image" required>
+
+            <label for="spotify-embed">Spotify Embed Link:</label>
+            <input type="text" id="spotify-embed" name="spotify-embed" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="admin-script.js"></script>
+</body>
+</html>

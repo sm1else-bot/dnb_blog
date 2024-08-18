@@ -1,0 +1,23 @@
+{
+    "blog_id": "15015",
+    "tag": "song",
+    "body": {
+        "song_name": "Baddadan",
+        "artist_name": "Chase & Status",
+        "subtitle": "feat. Bou, Irah, Flowdan, Trigga & Takura",
+        "artist_image": "https://www.wayoutwest.se/wp-content/uploads/2024/03/1-47-1200x1200.jpg",
+        "spotify_embed": "https://open.spotify.com/embed/track/2ZWmmrWUgDBcPSLihBMvhg?utm_source=generator&theme=0",
+        "review_body": "\"Baddadan\" by Chase & Status is an electrifying track that showcases the group's signature drum and bass style. The song features impressive vocal performances by Flowdan, whose deep, commanding voice adds an extra layer of intensity. The beat is catchy and infectious, making it a standout track in the genre. The collaboration with Bou, Irah, Trigga, and Takura brings diverse influences and creates a dynamic listening experience.",
+        "metrics": {
+            "lyrics": 8,
+            "melody": 9,
+            "harmony": 7,
+            "rhythm": 10,
+            "instrumentation": 8,
+            "production": 9,
+            "impact": 9,
+            "cultural": 8,
+            "success": 7
+        }
+    }
+}
